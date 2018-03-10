@@ -1,0 +1,111 @@
+body{
+	background-color: black !important;
+
+}
+select {
+    padding: 10px 16px; /* Firefox */
+    height: 50px;  /* Chrome & Safari */
+    -webkit-border-radius: 0;
+    border: 0;
+    outline: 1px inset #fff;
+    outline-offset: -1px;
+}
+p, tr {
+    color: white;
+}
+th{
+    text-align: left;
+}
+td { border-right: none; border-left: none; 
+}
+
+table tr:nth-child(1) {
+    color: #fff;
+    background-color: #d66c5c;
+    border-bottom: none;
+}
+html{
+    color:white;
+}
+table {
+    border-collapse: collapse;
+    background-color: #E7462B;
+    height: 300px;
+    width: 50%;
+}
+table tr{
+    border: 1px solid black;
+}
+
+
+.tdcenter{
+    text-align: center;
+}
+.tdright{
+    text-align: right;
+}
+
+.ebri{
+display:block;
+margin:auto;
+}
+.boto{
+
+display:block;
+margin:auto;
+        font-size:20px;
+        font-family:Verdana,Helvetica;
+        font-weight:bold;
+        color:white;
+        background:#E7462B;
+        border:0px;
+        width:250px;
+        height:75px;
+}
+#formRegistre input [type=text],[type=password],[type=email], select, textarea {
+    width: 40%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+#nom, #cognoms {
+      width: 40%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+.register {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  top: 20%;
+  left: 45%;
+  margin: -100px 0 0 -150px;
+  background:grey ;
+}
+.register form {
+    padding: 15%;
+    display: inline-block;
+    text-align: center;
+}
+.fotoboto{
+    height: auto; 
+    width: auto; 
+    max-width: 300px; 
+    max-height: 300px;
+   margin-left: -1%;
+}
+.confirmacio{
+  position: absolute;
+  width: 800px;
+  height: 410px;
+  top: 20%;
+  left: 45%;
+  margin: -100px 0 0 -300px;
+  background:grey ;
+}
+.confirmacio p, label, h5{
+    margin-left: 15px;
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="./css/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Confirmacio</title>
+</head>
+<body>
+        <p id="entrada"></p>
+
+
+            <div id="centre">
+                <div class="confirmacio">
+                    <br>
+                  <input class="inputradio" type="radio" id="seguroSi" name="option1" checked>
+                  <label class="" for="exampleRadios1">
+
+                    Sí, vull poder recuperar els meus diners
+                  </label>
+                  <div id="info">
+                    <h5 class="">L'ASSEGURANÇA D'ANUL·LACIÓ A TOT RISC: ASSEGURA LES TEVES ENTRADES NO REEMBORSABLES</h5>
+                    <p class="">Sempre que les puguis justificar, et donem la possibilitat de recuperar el 100% de les teves entrades!</p>
+                    <ul class="blanc">
+                        <li><span class=""></span>L'event era a un altre ciutat i el teu tren va arribar tard</li>
+                        <li><span class=""></span>El teu fill es va posar malalt i el vas haver de portar al metge</li>
+                        <li><span class=""></span>Vas haver de viatjar per feina</li>
+                        <li><span class=""></span>Tenies pensat anar a l'event, però vas trobar feina!</li>
+                    </ul>
+                  </div>
+                <br><br>
+                  <input class="inputradio" type="radio" id="seguroNo" name="option1">
+                  <label class="" for="exampleRadios2">
+                    No vull l'assegurança encara que perdi <span id="no" class=""></span>
+                  </label>
+                  <br>
+                  <br>
+                  <form action="compra.html">
+                     <input class="boto" type="submit" onclick="magia();" id="buto" value="CONTINUAR" />
+                </form>
+                </div>
+                <br>
+            </div>
+        <div id="apareixer">
+            <div id="finish">
+                <div class="final">
+                    <h4 class="blanc">Entrada Anticipada</h4>
+                    <p class="blanc">&nbsp;<span id="nE"></span> x 15.00 €</p>
+                    <p id="tutal" class="blanc"></p>
+                </div>
+                <div id="desti" class="">
+                    <h4 id="seguro1" class="blanc"></h4>
+                    <p id="seguro2" class="blanc"></p>
+                </div>
+                <div class="">
+                    <h4 class="">Costos de gestió</h4>
+                    <p id="costus" class=""></p>
+                </div>
+            </div>
+            <div id="finish3">
+                <br><br>
+                <p id="totalEnd" style="color:red; font-size:1.4em; font-weight: bold;"></p>
+            </div>
+        </div>
+        <script src="scripts/scripts.js"></script>
+</body>
+</html>
